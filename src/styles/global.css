@@ -1,0 +1,49 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.text-well {
+  background-color: #e0e3e5;
+  border-bottom: 2px solid transparent;
+}
+
+.text-well:focus-within {
+  border-bottom-color: #004ac6;
+}
+
+body {
+  font-family: "Public Sans", "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-headline {
+  font-family: "Manrope", sans-serif;
+}
+
+.glass-panel,
+.glass-card,
+.glass-status {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.glass-effect {
+  backdrop-filter: blur(16px);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.primary-gradient {
+  background: linear-gradient(135deg, #004ac6 0%, #2563eb 100%);
+}
+
+.glass-status {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+}
